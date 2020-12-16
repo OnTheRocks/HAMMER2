@@ -23,7 +23,7 @@ function Customers() {
     return axios.get("/Customers");
       };
 
-  // Deletes a Customer from the database with a fiven id, then reloads Customers
+  // Deletes a Customer from the database with a given id, then reloads Customers
   // function deleteCustomer(id) {
   //   API.deleteCustomer(id)
   //     .then(res => loadCustomers())
@@ -88,12 +88,7 @@ function Customers() {
                 name="custZip"
                 placeholder="Zip Code"
               />
-              {/* <FormBtn
-                disabled={!(formObject.custName)}
-                onClick={hadndleFormSubmit}
-                >
-                  Submit Customer
-                </FormBtn> */}
+
             </form>
           </Col>
           <Col size="md-6 sm-2">
